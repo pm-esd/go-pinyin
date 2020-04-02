@@ -2,16 +2,14 @@ package pinyin
 
 import (
 	"strings"
-
-	"github.com/pm-esd/go-pinyin/gojieba"
 )
 
-var (
-	jieba = gojieba.NewJieba()
-)
-
-func cutWords(s string) []string {
-	return jieba.CutAll(s)
+func cutWords(p string) []string {
+	s := make([]string, 0)
+	for _, r := range p {
+		s = append(s, string(r))
+	}
+	return s
 }
 
 func pinyinPhrase(s string) string {
