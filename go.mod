@@ -1,6 +1,5 @@
-module github.com/mozillazg/go-pinyin
+module github.com/pm-esd/go-pinyin
 
-require (
-	github.com/mattn/go-isatty v0.0.10
-	github.com/yanyiwu/gojieba v1.1.0
-)
+go 1.14
+
+require github.com/mattn/go-isatty v0.0.10

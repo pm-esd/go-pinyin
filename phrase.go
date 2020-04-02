@@ -3,7 +3,7 @@ package pinyin
 import (
 	"strings"
 
-	"github.com/yanyiwu/gojieba"
+	"github.com/pm-esd/go-pinyin/gojieba"
 )
 
 var (
@@ -30,4 +30,3 @@ func pinyinPhrase(s string) string {
 
 	return s
 }
-

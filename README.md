@@ -3,8 +3,8 @@ go-pinyin
 
 [![Build Status](https://travis-ci.org/mozillazg/go-pinyin.svg?branch=master)](https://travis-ci.org/mozillazg/go-pinyin)
 [![Coverage Status](https://coveralls.io/repos/mozillazg/go-pinyin/badge.svg?branch=master)](https://coveralls.io/r/mozillazg/go-pinyin?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mozillazg/go-pinyin)](https://goreportcard.com/report/github.com/mozillazg/go-pinyin)
-[![GoDoc](https://godoc.org/github.com/mozillazg/go-pinyin?status.svg)](https://godoc.org/github.com/mozillazg/go-pinyin)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pm-esd/go-pinyin)](https://goreportcard.com/report/github.com/pm-esd/go-pinyin)
+[![GoDoc](https://godoc.org/github.com/pm-esd/go-pinyin?status.svg)](https://godoc.org/github.com/pm-esd/go-pinyin)
 
 汉语拼音转换工具 Go 版。
 
@@ -13,13 +13,13 @@ Installation
 ------------
 
 ```
-go get -u github.com/mozillazg/go-pinyin
+go get -u github.com/pm-esd/go-pinyin
 ```
 
 install CLI tool:
 
 ```
-go get -u github.com/mozillazg/go-pinyin/cmd/pinyin
+go get -u github.com/pm-esd/go-pinyin/cmd/pinyin
 $ pinyin 中国人
 zhōng guó rén
 ```
@@ -29,7 +29,7 @@ Documentation
 --------------
 
 API documentation can be found here:
-https://godoc.org/github.com/mozillazg/go-pinyin
+https://godoc.org/github.com/pm-esd/go-pinyin
 
 
 Usage
@@ -40,7 +40,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/mozillazg/go-pinyin"
+	"github.com/pm-esd/go-pinyin"
 )
 
 func main() {
